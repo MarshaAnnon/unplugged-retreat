@@ -110,7 +110,7 @@ header, footer {
   display: flex; 
   align-items: center;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
 }
 
 header {
@@ -134,7 +134,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex: row wrap;
+  flex-flow: row wrap;
   width: 60%;
 }
 
@@ -183,7 +183,7 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
 }
 
 /******** Aside ********/
@@ -192,7 +192,7 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
 }
 
 /******** Features ********/
@@ -200,7 +200,7 @@ aside {
 .features {
   display: flex;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
 }
 
 .features h2 {
@@ -216,7 +216,7 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
 }
 
 .features p {
@@ -228,7 +228,7 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
 }
 
 .reiview h2 {
@@ -247,14 +247,14 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
 }
 
 .contact-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
 }
 
 .contact-section p {
@@ -269,14 +269,14 @@ aside {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
 }
 
 .faqs, .content-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: row wrap;
+  flex-flow: row wrap;
   margin: 50px 0 0 0;
 }
 
