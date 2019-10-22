@@ -98,15 +98,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 .content-wrapper {
-  width: 90%;
   margin: 50px 0;
+  width: 90%;
 }
 
 /******* Base Header and Footer Styles ********/
 
-header, footer {
+header, 
+footer {
   display: flex; 
   align-items: center;
   justify-content: center;
@@ -145,7 +145,7 @@ header nav ul {
   width: 100%;
 }
 
-footer {
+.footer {
   flex-direction: column;
 }
 
@@ -177,7 +177,7 @@ footer .copyright {
   margin: 20px 0;
 }
 
-/******** Mobile Styles Home Page ********/
+/******** Mobile Styles Homepage ********/
 
 /******** Hero Area ********/
 
@@ -232,7 +232,7 @@ aside {
   flex-flow: row wrap;
 }
 
-.reiviews h2 {
+.reviews h2 {
   margin-bottom: 40px;
 }
 
@@ -378,7 +378,7 @@ aside {
    Modify as content requires.
    ========================================================================== */
 /******** Tablet Styles ********/
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
   /******** General Styles ********/
 
@@ -416,13 +416,14 @@ aside {
 
   aside .content-wrapper {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-flow: row wrap;
     margin: 50px 0;
   }
 
-  aside .content-wrapper .form-description
-  .form {
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper .form {
     width: 35%;
     margin: 0;
   }
@@ -431,8 +432,8 @@ aside {
 
   .features article {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-flow: column wrap;
     flex-basis: 50%;
   }
@@ -463,6 +464,8 @@ aside {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
   }
 
   .footer .contact {
