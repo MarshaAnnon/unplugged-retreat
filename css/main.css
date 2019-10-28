@@ -681,6 +681,10 @@ input[type=button] {
     width: 40%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -782,38 +786,42 @@ input[type=button] {
 ***************************** About Page ************************************
 ===========================================================================*/
 
-.mission h2,
-.contact-section .content-wrapper h2 {
+  .mission h2,
+  .contact-section .content-wrapper h2 {
   width: 100%;
   font-size: 3em;
-}
+  }
 
-.contact-section .content-wrapper h2 {
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+  
+  .contact-section .content-wrapper h2 {
   margin-bottom: 40px;
-}
+  }
 
-.contact-content h4 {
+  .contact-content h4 {
   font-size: 1.875em;
-}
+  }
 
 /*===========================================================================
 ***************************** FAQ Page **************************************
 ===========================================================================*/
 
-.faq h2 {
+  .faq h2 {
   font-size: 3em;
   width: 100%;
-}
+  }
 
-.faq-content {
+  .faq-content {
   flex-basis: 35%;
-}
+  }
 
-.faq h4,
-.faq p {
+  .faq h4,
+  .faq p {
   font-size: 1.125em;
   line-height: 1;
-}
+  }
 }
 
 /* ==========================================================================
