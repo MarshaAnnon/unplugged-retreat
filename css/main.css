@@ -234,11 +234,6 @@ footer .contact {
   margin-bottom: 50px;
 }
 
-/*footer h4 {
-  display: flex;
-  justify-content: center;
-}*/
-
 footer .social-icons {
   display: flex;
   align-items: center;
@@ -573,7 +568,7 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 30%;
   }
 
   header nav ul {
@@ -656,6 +651,7 @@ input[type=button] {
   footer .content-wrapper {    
     margin: 100px 0;
     width: 65%;
+    
   }
 
   footer .footer-content {
@@ -676,6 +672,7 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+
   }
 
   footer .social-icons {
